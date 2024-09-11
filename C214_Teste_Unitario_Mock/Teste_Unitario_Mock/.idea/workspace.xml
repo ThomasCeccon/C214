@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="412561b8-d0f0-4840-b073-f7a450692c03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/AtendimentoProfessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C214_L1_Teste_Unitario_Mock/Teste Unitario Mock/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C214_L1_Teste_Unitario_Mock/Teste Unitario Mock/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C214_L1_Teste_Unitario_Mock/Teste Unitario Mock/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C214_L1_Teste_Unitario_Mock/Teste Unitario Mock/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C214_L1_Teste_Unitario_Mock/Teste Unitario Mock/Teste Unitario Mock.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C214_L1_Teste_Unitario_Mock/Teste Unitario Mock/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C214_L1_Teste_Unitario_Mock/Teste Unitario Mock/src/Web.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lu5gmYSPFCr1zMFhWIGsBr06ny" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="412561b8-d0f0-4840-b073-f7a450692c03" name="Changes" comment="" />
+      <created>1726017237172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726017237172</updated>
+    </task>
+    <servers />
+  </component>
+</project>
