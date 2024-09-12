@@ -11,15 +11,15 @@ public class BuscaAtendimentoProfessor {
         this.atendimentoService = service;
     }
 
-    // Metodo para retornar as informações de atendimento
-    public AtendimentoProfessor returnAtendimento(int sala) {
-        // Busca atendimento como uma string JSON
+    // Metodo para retornar as informações de atendimento do professor
+    public AtendimentoProfessor buscaAtendimentoProfessor(int sala) {
+        // Busca o atendimento como uma string JSON
         String atendimentoJson = atendimentoService.busca(sala);
 
         // Converte a string JSON em um objeto JsonObject usando Gson
         JsonObject jsonObject = JsonParser.parseString(atendimentoJson).getAsJsonObject();
 
-        // objeto AtendimentoProfessor com os dados extraídos do JsonObject
+        // Cria e retorna o objeto AtendimentoProfessor com os dados extraídos do JsonObject
         return new AtendimentoProfessor(
                 jsonObject.get("nomeDoProfessor").getAsString(),
                 jsonObject.get("horarioDeAtendimento").getAsString(),
@@ -29,4 +29,14 @@ public class BuscaAtendimentoProfessor {
         );
     }
 
+    // Metodo para verificar se o atendimento existe para a sala especificada
+    public boolean verificaArrayListExistente(int sala) {
+        boolean atendimentoExistente = atendimentoService.atendimentoExistente(sala);
+
+        if (atendimentoExistente){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
