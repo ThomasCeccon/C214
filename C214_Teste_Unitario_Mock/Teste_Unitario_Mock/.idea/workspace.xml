@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="412561b8-d0f0-4840-b073-f7a450692c03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/AtendimentoConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/MockAtendimentoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/TesteBuscaAtendimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/mockito/TesteBuscaAtendimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/AtendimentoProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/AtendimentoProfessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/BuscaAtendimentoProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/BuscaAtendimentoProfessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/AtendimentoConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/AtendimentoConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/TesteBuscaAtendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/TesteBuscaAtendimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/mockito/TesteBuscaAtendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/mockito/TesteBuscaAtendimento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
