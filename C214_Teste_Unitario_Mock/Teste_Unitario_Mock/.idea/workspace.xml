@@ -7,12 +7,6 @@
     <list default="true" id="412561b8-d0f0-4840-b073-f7a450692c03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/AtendimentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/AtendimentoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/BuscaAtendimentoProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/BuscaAtendimentoProfessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/AtendimentoConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/AtendimentoConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/MockAtendimentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/MockAtendimentoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/TesteBuscaAtendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/TesteBuscaAtendimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/mockito/TesteBuscaAtendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/mockito/TesteBuscaAtendimento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.All in Teste_Unitario_Mock.executor": "Run",
     "JUnit.TesteBuscaAtendimento (1).executor": "Run",
     "JUnit.TesteBuscaAtendimento.executor": "Run",
     "JUnit.TesteBuscaAtendimento.testeBuscaProfessorSalaInexistente.executor": "Run",
@@ -52,13 +47,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/BEHIVE TECNOLOGIA/Desktop/C214/C214_Teste_Unitario_Mock/Teste_Unitario_Mock",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TesteBuscaAtendimento (1)">
+  <component name="RunManager" selected="JUnit.All in Teste_Unitario_Mock">
+    <configuration name="All in Teste_Unitario_Mock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Teste_Unitario_Mock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteBuscaAtendimento (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Teste_Unitario_Mock" />
       <extension name="coverage">
@@ -106,22 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteBuscaAtendimento.testeBuscaProfessorSamuel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Teste_Unitario_Mock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.inatel.Atendimento.test.mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.inatel.Atendimento.test.mockito" />
-      <option name="MAIN_CLASS_NAME" value="br.inatel.Atendimento.test.mockito.TesteBuscaAtendimento" />
-      <option name="METHOD_NAME" value="testeBuscaProfessorSamuel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TesteBuscaAtendimento.testeBuscaSalaNaoCadastrada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Teste_Unitario_Mock" />
       <extension name="coverage">
@@ -140,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Teste_Unitario_Mock" />
         <item itemvalue="JUnit.TesteBuscaAtendimento (1)" />
         <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorSala10" />
         <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorSala5" />
         <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaSalaNaoCadastrada" />
-        <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorSamuel" />
       </list>
     </recent_temporary>
   </component>
