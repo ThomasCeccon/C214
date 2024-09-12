@@ -11,7 +11,7 @@ public class BuscaAtendimentoProfessor {
         this.atendimentoService = service;
     }
 
-    // Método para retornar as informações de atendimento
+    // Metodo para retornar as informações de atendimento
     public AtendimentoProfessor returnAtendimento(int sala) {
         // Busca atendimento como uma string JSON
         String atendimentoJson = atendimentoService.busca(sala);
@@ -24,12 +24,9 @@ public class BuscaAtendimentoProfessor {
                 jsonObject.get("nomeDoProfessor").getAsString(),
                 jsonObject.get("horarioDeAtendimento").getAsString(),
                 jsonObject.get("periodo").getAsString(),
-                jsonObject.get("sala").getAsInt()
+                jsonObject.get("sala").getAsInt(),
+                jsonObject.get("predio").getAsInt()
         );
     }
 
-    // Método para verificar se o atendimento já existe
-    public boolean verificaArrayListExistente(int sala) {
-        return atendimentoService.atendimentoExistente(sala);
-    }
 }
