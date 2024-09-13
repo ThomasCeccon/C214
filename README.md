@@ -35,6 +35,6 @@ mvn test
 ## Contribuindo
 Se você deseja contribuir para este projeto, faça um fork, crie uma branch para suas alterações e envie um pull request.
 
-## EQUIPE
+## Equipe
 - Gabriella Gonçalves Moreira-1744
 - Thomas Ceccon Guimarães-1812
