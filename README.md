@@ -13,7 +13,7 @@ O objetivo é testar a funcionalidade de uma classe que consome dados JSON para 
 
 ## Funcionalidades
 
-1. **BuscaHorarios**: Classe que busca os horários de atendimento dos professores a partir de um JSON.
+1. **BuscaAtedimentoProfessor**: Classe que busca os horários de atendimento dos professores a partir de um JSON.
 2. **MockAtendimentoService**: Serviço mock para simular a resposta do servidor remoto.
 3. **TesteBuscaAtendimento**: Testes unitários para validar a funcionalidade da busca e o comportamento do serviço mock.
 
