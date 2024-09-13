@@ -11,7 +11,7 @@ public class BuscaAtendimentoProfessor {
         this.atendimentoService = service;
     }
 
-    // Metodo para retornar as informações de atendimento do professor
+    // Metodo para retornar informações de atendimento do professor
     public AtendimentoProfessor buscaAtendimentoProfessor(int sala) {
         // Busca o atendimento como uma string JSON
         String atendimentoJson = atendimentoService.busca(sala);

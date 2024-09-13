@@ -19,7 +19,7 @@ public class MockAtendimentoService implements AtendimentoService {
         } else if (sala >= 21 && sala <= 25) {
             return AtendimentoConst.PREDIO6;
         } else {
-            return AtendimentoConst.INEXISTENTE; // Retorna INEXISTENTE para salas fora dos intervalos definidos
+            return AtendimentoConst.INEXISTENTE; // Retorna INEXISTENTE para salas que estão fora dos intervalos definidos
         }
     }
 

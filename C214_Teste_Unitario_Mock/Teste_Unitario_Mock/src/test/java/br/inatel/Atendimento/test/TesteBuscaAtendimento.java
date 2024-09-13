@@ -14,7 +14,7 @@ public class TesteBuscaAtendimento {
 
     @Before
     public void setup() {
-        // Criando o contexto do meu teste com o Mock (serviço mock)
+        // Criando o contexto do meu teste com o Mock
         service = new MockAtendimentoService();
         buscaAtendimentoProfessor = new BuscaAtendimentoProfessor(service);
     }

@@ -87,7 +87,7 @@ public class TesteBuscaAtendimento {
         assertEquals(5, professor.getPredio());
     }
 
-    // Testes de falha
+    //Testes com falha
     @Test
     public void testeBuscaProfessorSalaInexistente() {
         Mockito.when(service.busca(56)).thenReturn(AtendimentoConst.INEXISTENTE);

@@ -16,7 +16,7 @@ public class AtendimentoProfessor {
         this.predio=predio;
     }
 
-    //get
+    //GET dos atributos
     public String getNomeProfessor() {
         return nomeDoProfessor;
     }

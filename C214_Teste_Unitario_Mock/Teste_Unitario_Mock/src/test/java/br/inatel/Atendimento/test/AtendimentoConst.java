@@ -1,7 +1,7 @@
 package br.inatel.Atendimento.test;
 
 public class AtendimentoConst {
-
+   //novos dados para teste
     public static String NOVO_PREDIO1 =
             "{ \"nomeDoProfessor\": \"Ana\", \n" +
                     "\"horarioDeAtendimento\": \"Segunda:10:00\", \n" +
