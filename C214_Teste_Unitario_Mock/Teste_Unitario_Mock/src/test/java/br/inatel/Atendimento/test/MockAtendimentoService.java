@@ -7,7 +7,7 @@ public class MockAtendimentoService implements AtendimentoService {
 
     @Override
     public String busca(int sala) {
-        // Determina o prédio com base no intervalo da sala
+        // Determina o predio com base no intervalo da sala
         if (sala >= 1 && sala <= 5) {
             return AtendimentoConst.PREDIO1;
         } else if (sala >= 6 && sala <= 10) {
