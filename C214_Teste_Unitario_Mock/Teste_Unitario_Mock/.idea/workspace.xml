@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="412561b8-d0f0-4840-b073-f7a450692c03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/AtendimentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/AtendimentoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/BuscaAtendimentoProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/inatel/atendimento/BuscaAtendimentoProfessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/AtendimentoConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/AtendimentoConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/MockAtendimentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/MockAtendimentoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/TesteBuscaAtendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/TesteBuscaAtendimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/mockito/TesteBuscaAtendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/inatel/Atendimento/test/mockito/TesteBuscaAtendimento.java" afterDir="false" />
     </list>
@@ -40,12 +36,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.TesteBuscaAtendimento (1).executor": "Run",
+    "JUnit.TesteBuscaAtendimento (1).executor": "Debug",
     "JUnit.TesteBuscaAtendimento.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaProfessorCarla.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaProfessorChris (1).executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaProfessorChris.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaProfessorLuiz.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaProfessorSala10.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaProfessorSala5.executor": "Run",
     "JUnit.TesteBuscaAtendimento.testeBuscaProfessorSalaInexistente.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaProfessorSamuel (1).executor": "Debug",
     "JUnit.TesteBuscaAtendimento.testeBuscaProfessorSamuel.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaSalaInexistente10.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaSalaInexistente7.executor": "Run",
+    "JUnit.TesteBuscaAtendimento.testeBuscaSalaInexistente8.executor": "Debug",
+    "JUnit.TesteBuscaAtendimento.testeBuscaSalaInexistente9.executor": "Run",
     "JUnit.TesteBuscaAtendimento.testeBuscaSalaInexistenteMenorQue1.executor": "Run",
-    "JUnit.TesteBuscaAtendimento.testeBuscaSalaNaoCadastrada.executor": "Debug",
+    "JUnit.TesteBuscaAtendimento.testeBuscaSalaNaoCadastrada.executor": "Run",
     "JUnit.TesteBuscaAtendimento.testeBuscaSalaValidaProfessorExistente2.executor": "Debug",
     "JUnit.TesteBuscaAtendimento.testeBuscaSalaValidaProfessorExistente5.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,8 +65,23 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TesteBuscaAtendimento (1)">
+  <component name="RunManager" selected="JUnit.TesteBuscaAtendimento.testeBuscaProfessorAna">
     <configuration name="TesteBuscaAtendimento (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Teste_Unitario_Mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.inatel.Atendimento.test.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.inatel.Atendimento.test.mockito" />
+      <option name="MAIN_CLASS_NAME" value="br.inatel.Atendimento.test.mockito.TesteBuscaAtendimento" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteBuscaAtendimento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Teste_Unitario_Mock" />
       <extension name="coverage">
         <pattern>
@@ -74,39 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteBuscaAtendimento.testeBuscaProfessorSala10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Teste_Unitario_Mock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.inatel.Atendimento.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.inatel.Atendimento.test" />
-      <option name="MAIN_CLASS_NAME" value="br.inatel.Atendimento.test.TesteBuscaAtendimento" />
-      <option name="METHOD_NAME" value="testeBuscaProfessorSala10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteBuscaAtendimento.testeBuscaProfessorSala5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Teste_Unitario_Mock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.inatel.Atendimento.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.inatel.Atendimento.test" />
-      <option name="MAIN_CLASS_NAME" value="br.inatel.Atendimento.test.TesteBuscaAtendimento" />
-      <option name="METHOD_NAME" value="testeBuscaProfessorSala5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteBuscaAtendimento.testeBuscaProfessorSamuel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TesteBuscaAtendimento.testeBuscaProfessorAna" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Teste_Unitario_Mock" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +106,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.inatel.Atendimento.test.mockito" />
       <option name="MAIN_CLASS_NAME" value="br.inatel.Atendimento.test.mockito.TesteBuscaAtendimento" />
-      <option name="METHOD_NAME" value="testeBuscaProfessorSamuel" />
+      <option name="METHOD_NAME" value="testeBuscaProfessorAna" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteBuscaAtendimento.testeBuscaSalaNaoCadastrada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TesteBuscaAtendimento.testeBuscaProfessorChris (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Teste_Unitario_Mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.inatel.Atendimento.test.mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.inatel.Atendimento.test.mockito" />
+      <option name="MAIN_CLASS_NAME" value="br.inatel.Atendimento.test.mockito.TesteBuscaAtendimento" />
+      <option name="METHOD_NAME" value="testeBuscaProfessorChris" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteBuscaAtendimento.testeBuscaProfessorChris" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Teste_Unitario_Mock" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.inatel.Atendimento.test" />
       <option name="MAIN_CLASS_NAME" value="br.inatel.Atendimento.test.TesteBuscaAtendimento" />
-      <option name="METHOD_NAME" value="testeBuscaSalaNaoCadastrada" />
+      <option name="METHOD_NAME" value="testeBuscaProfessorChris" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorAna" />
         <item itemvalue="JUnit.TesteBuscaAtendimento (1)" />
-        <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorSala10" />
-        <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorSala5" />
-        <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaSalaNaoCadastrada" />
-        <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorSamuel" />
+        <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorChris (1)" />
+        <item itemvalue="JUnit.TesteBuscaAtendimento.testeBuscaProfessorChris" />
+        <item itemvalue="JUnit.TesteBuscaAtendimento" />
       </list>
     </recent_temporary>
   </component>

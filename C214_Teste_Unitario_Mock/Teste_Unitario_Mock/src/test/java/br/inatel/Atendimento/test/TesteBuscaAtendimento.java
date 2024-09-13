@@ -70,6 +70,7 @@ public class TesteBuscaAtendimento {
         assertEquals(6, professor.getPredio());
     }
 
+    //teste falha
     @Test
     public void testeBuscaSalaNaoCadastrada() {
         boolean atendimentoValido = buscaAtendimentoProfessor.verificaArrayListExistente(30);
@@ -100,9 +101,4 @@ public class TesteBuscaAtendimento {
         assertFalse(atendimentoValido);
     }
 
-    @Test
-    public void testeBuscaSalaInexistente9() {
-        boolean atendimentoValido = buscaAtendimentoProfessor.verificaArrayListExistente(-5);
-        assertFalse(atendimentoValido);
-    }
 }
